@@ -3,7 +3,7 @@ import express, { type Request, type Response } from 'express';
 const app = express();
 const PORT = 5000;
 
-// This is a "Route". It tells the server: 
+// This is a "Route". It tells the server:
 // "When someone visits the main page (/) using a GET request, run this function."
 app.get('/', (req: Request, res: Response) => {
   res.send('BudgetFlow API is running!');
